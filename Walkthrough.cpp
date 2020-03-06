@@ -1,5 +1,7 @@
+// This is the best way of understanding the concept of c++ referencing and encapsulation construction
+//----------------------------------------------------------------------------------------------------
+// Designer: Kamyab Rouhifar
 #include <iostream>
- 
 #include <cstring>
  
 using namespace std;
@@ -9,8 +11,7 @@ const int NG = 20;
 //--------------------------------------
  
 class Student {
-     i
-nt no;
+ int no;
      
 float grade[NG];
      
@@ -47,7 +48,7 @@ void end(){
      
 Student temp;
     
- cout <<"*** Have a nice day ***"<<endl;
+cout <<"*** Have a nice day ***"<<endl;
      
 cout <<"creator: "<<temp.getname()<<endl;
  }
@@ -70,7 +71,7 @@ ng = 0;
   
 Student::~Student() {
  
-     cout << "In destructor" << endl;
+cout << "In destructor" << endl;
     
 cout << no<<endl;
   }
@@ -116,9 +117,9 @@ void Student::display() const {
         
  cout << no << ":\n";
        
-  cout.setf(ios::fixed);
+ cout.setf(ios::fixed);
        
-  cout.precision(2);
+ cout.precision(2);
          
 for (int i = 0; i < ng; i++) {
            
